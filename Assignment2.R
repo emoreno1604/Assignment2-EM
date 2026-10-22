@@ -18,3 +18,10 @@ results <- merge(species_count, avg_body_mass, by = "species")
 # Save results
 write.csv(results, "penguins_results.csv", row.names = FALSE)
 
+
+barplot(table(penguins$species),
+        main = "Number of Penguins by Species",
+        xlab = "Species",
+        ylab = "Number of Penguins",
+        col = "lightblue")
+
