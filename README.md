@@ -1,6 +1,6 @@
 # Assignment2-EM
 
-##Description
+#Description
 #This project uses the penguins.csv, which contains information about 3 species of penguins including the following species: Adelie, Chinstrap, and Gentoo. The data set includes information such as the body mass, bill length, and information about the islands.
 
 #Analysis script
